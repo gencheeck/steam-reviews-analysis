@@ -1,0 +1,23 @@
+# Jupyter and Python
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+
+# Raw and review-level Steam data
+output/raw_negative/
+output/clean_reviews.csv
+output/negative_reviews.csv
+output/negative_reviews_with_themes.csv
+
+# Temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
